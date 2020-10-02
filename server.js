@@ -4,6 +4,7 @@ const cors = require('cors');
 const { check, validationResult } = require('express-validator');
 
 app = express();
+app.use('/', express.static('dist'));
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
