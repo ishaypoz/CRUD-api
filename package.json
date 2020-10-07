@@ -11,7 +11,8 @@
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^4.17.1",
-		"express-validator": "^6.6.1"
+		"express-validator": "^6.6.1",
+		"winston": "^3.3.3"
 	},
 	"devDependencies": {
 		"gh-pages": "^3.1.0"
